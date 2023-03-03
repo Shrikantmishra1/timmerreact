@@ -1,0 +1,41 @@
+@font-face{
+    font-family:'Digital-7 Regular'; 
+    src: url('./digital-7.regular.ttf');
+}
+
+body{
+
+
+
+    background: #474747;
+}
+
+.first{
+
+     
+     position: absolute;
+     width:400px;
+     height:300px;
+     top: 50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+background: #292828;
+box-shadow:  17px 17px 14px #222224,
+          -7px -7px 14px #0a0a0a,
+           inset  -7px -7px 10px #000000,
+           inset -7px -7px 10px #000000;
+          
+}
+h1{ 
+
+    color:rgb(7, 231, 108);
+    font-family:'Digital-7 Regular';
+     font-weight: 100;
+    
+    font-size: 70px;
+}

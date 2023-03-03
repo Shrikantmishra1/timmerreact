@@ -1,10 +1,10 @@
 import React from "react";
 
-import Reactd from "./Reactd";
+import Clock from "./components/Timer";
 function App() {
   return (
     <div className="App">
-      <Reactd />
+       <Clock/>
     </div>
   );
 }
